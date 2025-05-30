@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <p>If you have any questions or would like to get in touch, feel free to reach out to me via email or through my social media profiles.</p>
+    
+     <form id="contactForm" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+        <div id="nameError" class="error"></div>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+        <div id="emailError" class="error"></div>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Write a message"></textarea>
+        <div id="messageError" class="error"></div>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <h2>Email</h2>
+    <p>You can email me at: <a href="mailto:oluwakoyadavid@gmail.com">oluwakoyadavid@gmail.com</a></p>
+
+     <footer>
+        <p>&copy; 2025 Oluwakoya David. All rights reserved.</p>
+        <div id="datetime" style="text-align:right; font-weight:bold; margin: 10px 0;"></div>
+        <script src="contact.js"></script>
+        </footer>
+</body>
+</html>

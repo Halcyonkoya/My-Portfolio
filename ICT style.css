@@ -1,0 +1,153 @@
+body{background-image: url(istockphoto-537331500-1024x1024.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;}
+
+
+/*mobile*/
+@media (max-width:600px){
+.firstheader{
+    .name{
+        width: 100px;
+        height: 120px;
+    }
+    .link{
+        text-align: center;
+        margin-left: 0%;
+    }
+    display: flex;
+    align-items: center;
+    
+    max-width: 100%;
+}
+
+}
+
+a:link    {color:rgb(245, 243, 243); background-color:transparent; text-decoration:none}
+a:visited {color:rgb(139, 237, 220); background-color:transparent; text-decoration:none}
+a:hover   {color:red; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+
+.hero {
+  background: linear-gradient(120deg, #43bbd9 0%, #eaf5f8 100%);
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 40px 0;
+  box-shadow: 0 8px 24px rgba(67, 187, 217, 0.15);
+}
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+.hero-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+.hero-btn {
+  background: #43bbd9;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: background 0.3s;
+  box-shadow: 0 4px 12px rgba(67, 187, 217, 0.2);
+}
+.hero-btn:hover {
+  background: #2a8ca7;
+}
+
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .firstheader {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 2vw;
+    max-width: 100%;
+  }
+  .name {
+    width: 100px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  .link {
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .hero {
+    padding: 30px 5vw;
+    margin: 20px 0;
+    border-radius: 12px;
+  }
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+  .hero-content h2 {
+    font-size: 1.1rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+  .hero-btn {
+    padding: 10px 18px;
+    font-size: 1rem;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 991px) {
+  .firstheader {
+    padding: 10px 3vw;
+    max-width: 100%;
+  }
+  .name {
+    width: 110px;
+    height: 130px;
+  }
+  .link {
+    margin-left: 50%;
+    text-align: right;
+  }
+  .hero {
+    padding: 40px 8vw;
+    margin: 30px 0;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .hero-content h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  .firstheader {
+    max-width: 2000px;
+    padding: 10px 10vw;
+  }
+  .name {
+    width: 135px;
+    height: 150px;
+  }
+  .link {
+    text-align: right;
+    margin-left: 75%;
+  }
+}
+
+
+
+

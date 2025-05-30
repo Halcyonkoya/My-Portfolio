@@ -1,0 +1,49 @@
+        form {
+            max-width: 400px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #f7f7f7;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(67, 187, 217, 0.08);
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 12px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+        button[type="submit"] {
+            background: #43bbd9;
+            color: #fff;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 14px;
+        }
+        .error {
+            color: #c00;
+            font-size: 0.98rem;
+            margin-top: 6px;
+        }
+        /* Responsive styles */
+@media (max-width: 500px) {
+    form {
+        max-width: 98%;
+        padding: 10px;
+    }
+    input, textarea {
+        font-size: 0.98rem;
+        padding: 7px;
+    }
+    button[type="submit"] {
+        font-size: 0.98rem;
+        padding: 9px 0;
