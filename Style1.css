@@ -1,0 +1,35 @@
+/* For Mobile*/
+body{
+font-size: 14px;
+background:  linear-gradient(to top left, bisque -56%, white 100% );
+}
+/* Tablet */
+@media (min-width: 600px) {
+    body{
+        font-size: 16px;
+    }
+}
+/* Desktops */
+@media (min-width: 992px) {
+    body{
+        font-size: 22px;
+    }
+}
+
+h1{
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+input[type=text], select, textarea {
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}

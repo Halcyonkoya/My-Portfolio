@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Online Complaint And Feedback system</title>
+ <link rel="stylesheet" href="Style1.css">
+ <script src="complaint.js>" defer></script>
+
+ <img src="C:\Users\The Wealthy Place\Downloads\aa\Personal Project\images.jpeg" alt="Bells Motto and Logo" height="70px"><hr>
+</head>
+<body>
+    
+ 
+ 
+ <h1>Bells University Complaint System</h1>
+ 
+<p>Welcome to Bells complaint system, Please send us details about the incident you would like to report. Our Complaint Center will analyze your complaint and take the appropriate measures 
+    in order that the reported situation will not occur at any other time in the future.</p>
+
+    <div class="mainform">
+ <form action="Submitted_complaint.php" method="post">
+
+
+    <!--Header-->
+
+ <div class="header">
+   <h1>Complaint Form</h1>
+   <p>Please fill in the blank spaces</p>
+   <hr>
+ </div>
+
+ <br><br>
+
+ <fieldset>
+    <legend>Personal Information</legend>
+  <!--Name-->
+  <div class="form-group">
+    <label for="fname"><b>First Name</b> <br></label>
+    <input type="text" class="form-control" id="fname" placeholder="Enter your name" name="fname">
+  </div>
+
+ <br>
+
+      <div class="form-group">
+        <label for="lname"><b>Last Name</b> <br> </label> 
+        <input type="text" class="form-control" id="lname" placeholder="Enter last name" name="lname">
+      </div>
+   
+      <br>
+   <!-- Phone number-->
+    
+ <div class="form-group">
+    <label for="phoneNo"> <b>Phone Number </b> <br> </label>
+    <input type="text" id="phone" class="form-control" placeholder="Enter Landline Number" name = "phoneNo" >
+  </div>
+
+ </fieldset>
+ <br>
+  <!-- Select your area-->
+
+ <label for="Select Your Area"><b>Select Your Area</b></label>
+ <select id="area" name="area" >
+  <option value="Lecturer">Lecturer</option>
+  <option value="Student">Student</option>
+  <option value="Medical Specialist">Medical Specialist</option>
+  <option value="Administrators">Administrators</option>
+  <option value="">Staff</option>
+ </select>
+ 
+ <br>
+ <br>
+ <!-- Category of complaint-->
+
+  <div id="formsection">
+    <label><b>What is the category of complain you are facing?</b></label>
+
+    <p><input type="checkbox" name="section" value="sports">Sports</p>
+    <p><input type="checkbox" name="section" value="business">Academic</p>
+    <p><input type="checkbox" name="section" value="health">Health</p>
+
+  </div>
+
+
+ <br>
+  <!-- Complaint Details-->
+
+  <label for="subject"><b>Complaint Details:</b></label>
+   <textarea id="subject" name="subject" placeholder="Enter your complaint details......." style="height:200px"></textarea>
+
+
+  <!--Submit Button-->
+   <button type="button" class="btn btn-outline-primary">Submit</button>
+
+
+
+</div>
+</form>
+
+
+
+</body>
+</html>
