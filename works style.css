@@ -123,7 +123,7 @@
      }
      @media (max-width: 600px) {  
        iframe{
-       width: 70px;
+       width: 95px;
        height: 300px;
        border-radius: 10px;
        }
@@ -134,7 +134,7 @@
        width: 50%;
        height: 300px;
        border-radius: 10px;
-      margin-left: 10px;
+      margin-left: 30px;
        }
     
      }
